@@ -18,15 +18,15 @@
   <nav>
     <div class="container">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about-me">About</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
     </div>
   </nav>
   <!-- Heading -->
-  <div class="heading">
+  <div id="home" class="heading">
     <div class="container">
       <div class="heading-text">
         <h1 class="display-1 mr-5">Brian Fan</h1>
@@ -36,7 +36,7 @@
   </div><!-- /Heading -->
 
   <!-- Portfolio -->
-  <div class="container portfolio mt-5">
+  <div id="portfolio" class="container portfolio mt-5">
     <h2 class="text-center mb-5">My Portfolio</h2>
     <div class="row">
       <div class="col-lg-4 col-md-6">
@@ -87,28 +87,41 @@
 
   <!-- About Me -->
 
-<div class="content">
-  <div class="container">
-    <div class="col">
-      <img class="about-img" src="img/me.jpg" alt="Brian Fan">
+  <div id="about-me" class="content">
+    <div class="container">
+      <div class="col">
+        <img class="about-img" src="img/me.jpg" alt="Brian Fan">
+      </div>
+      <div class="col">
+        <h2>About Me</h2>
+          <p>I'm Brian Fan. I'm originally from Taiwan. I came to the US to get my college degree in Texas. My first job after graductin from college is an AP/AR accoutant in the auto parts industry. After that I have worked as accounting specialist for big banks such as JP morgon chase, Bank of America and Wells Fargo.</p>
+          <p>I have been thinking about learning different programming languages for a long time. This march i joined Epicodus. I hope i will be able to find a job or intern after complete the courses. </p>
+        <h2>Interest</h2>
+        <ol>
+          <li><p>Horror Movies</p></li>
+          <li><p>Video Games</p></li>
+          <li><p>Mountain Hiking</p></li>
+          <li><p>Tree Hugging</p></li>
+        </ol>
+      </div>
     </div>
-    <div class="col">
-      <h2>About Me</h2>
-        <p>I'm Brian Fan. I'm originally from Taiwan. I came to the US to get my college degree in Texas. My first job after graductin from college is an AP/AR accoutant in the auto parts industry. After that I have worked as accounting specialist for big banks such as JP morgon chase, Bank of America and Wells Fargo.</p>
-        <p>I have been thinking about learning different programming languages for a long time. This march i joined Epicodus. I hope i will be able to find a job or intern after complete the courses. </p>
-      <h2>Interest</h2>
-      <ol>
-        <li><p>Horror Movies</p></li>
-        <li><p>Video Games</p></li>
-        <li><p>Mountain Hiking</p></li>
-        <li><p>Tree Hugging</p></li>
-      </ol>
+  </div>  <!-- /About Me -->
+
+ <!-- Clearfix -->
+<div class="clearfix"></div>
+
+ <!-- Footer -->
+  <footer id="contact">
+    <div class="container">
+      <p>Phone Number: (469)451-2541</p>
+      <p>Email: brian.fan@yahoo.com</p>
+      <div class="footer-img">
+        <a href="#"><img src="img/fb.png" alt="facebook"></a>
+        <a href="#"><img src="img/tw.png" alt="Twitter"></a>
+        <a href="#"><img src="img/gh.png" alt="Github"></a>
+      </div>
     </div>
-  </div>
-</div>  <!-- /About Me -->
-
-
-
+  </footer>
 
 </body>
 </html>

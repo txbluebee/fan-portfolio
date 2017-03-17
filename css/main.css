@@ -92,10 +92,6 @@ nav ul li a:hover {
    border-top: 2px solid grey;
  }
 
-.col-1, .col-3 {
-  width: 30%;
-  float: left;
-}
 
 .col {
   width: 50%;
@@ -106,4 +102,35 @@ nav ul li a:hover {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+}
+
+/****Clearfix****/
+
+.clearfix {
+  clear: both;
+}
+
+
+/****Footer****/
+
+footer {
+  height: 50px;
+  background: #e1e9f7;
+}
+
+footer .container {
+  padding-top: 10px;
+}
+
+footer p {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+footer img {
+  margin-left: 20px;
+}
+
+.footer-img {
+  float: right;
 }
