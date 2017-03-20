@@ -11,7 +11,7 @@ This is Brian's portfolio website. You will be able to see his skill sets and al
 ## Setup/Installation Requirements
 
 * Use Web browsers Chrome, Firefox, IE or Opera
-* Copy and the past [this link](https://github.com/txbluebee/fan-portfolio)
+* Copy and the past [this link](https://txbluebee.github.io/fan-portfolio)
 * Use Navigation bar on the top to go to the section you would like to know more about Brian.
 
 ## Technology Used
